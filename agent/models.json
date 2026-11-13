@@ -1,0 +1,18 @@
+{
+  "$schema": "https://pi.dev/schemas/models.schema.json",
+  "providers": {
+    "ollama-cloud": {
+      "name": "Ollama Cloud",
+      "baseUrl": "https://ollama.com",
+      "apiKey": "$OLLAMA_API_KEY",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "kimi-k3.1-pro",
+          "reasoning": true,
+          "contextWindow": 393216
+        }
+      ]
+    }
+  }
+}

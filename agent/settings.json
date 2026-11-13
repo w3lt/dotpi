@@ -1,0 +1,12 @@
+{
+  "$schema": "https://pi.dev/schemas/settings.schema.json",
+  "defaultModel": "kimi-k3.1-pro",
+  "defaultProvider": "ollama-cloud",
+  "defaultThinkingLevel": "high",
+  "defaultProjectTrust": "ask",
+  "lastChangelogVersion": "1.5.2",
+  "packages": [
+    "npm:@ollama/pi-web-search"
+  ],
+  "enableAnalytics": false
+}
