@@ -3,7 +3,7 @@
   "providers": {
     "ollama-cloud": {
       "name": "Ollama Cloud",
-      "baseUrl": "https://ollama.com",
+      "baseUrl": "https://ollama.com/v1",
       "apiKey": "!security find-generic-password -a \"$USER\" -s pi-ollama-cloud -w",
       "api": "openai-completions",
       "models": [
