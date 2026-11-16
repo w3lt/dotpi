@@ -4,11 +4,16 @@
     "ollama-cloud": {
       "name": "Ollama Cloud",
       "baseUrl": "https://ollama.com/v1",
-      "apiKey": "!security find-generic-password -a \"$USER\" -s pi-ollama-cloud -w",
+      "apiKey": "// Fill your api key",
       "api": "openai-completions",
       "models": [
         {
           "id": "kimi-k3.1-pro",
+          "reasoning": true,
+          "contextWindow": 393216
+        },
+        {
+          "id": "inkling-2-small",
           "reasoning": true,
           "contextWindow": 393216
         }

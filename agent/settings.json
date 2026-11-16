@@ -1,6 +1,6 @@
 {
   "$schema": "https://pi.dev/schemas/settings.schema.json",
-  "defaultModel": "kimi-k3.1-pro",
+  "defaultModel": "inkling-2-small",
   "defaultProvider": "ollama-cloud",
   "defaultThinkingLevel": "high",
   "defaultProjectTrust": "ask",
